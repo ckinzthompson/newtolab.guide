@@ -6,6 +6,7 @@ metadata-files: [CNAME]
 
 website:
   title: "New to Lab"
+  google-analytics: "G-6DXRRLW54Y"
   navbar:
     left:
       - href: index.qmd
