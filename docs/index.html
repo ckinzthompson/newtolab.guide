@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>New to Lab</title>
+<title>Welcome Labbies and Crabbies – New to Lab</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,6 +40,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdown.js"></script>
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdownKatex.js"></script>
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdownHighlight.js"></script>
+<script src="site_libs/quarto-contrib/quizdown-0.6.0/quizdown-init.js"></script>
+<script src="site_libs/quarto-contrib/molstar-v3.13.0/molstar.js"></script>
+<link href="site_libs/quarto-contrib/molstar-v3.13.0/molstar.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/molstar-v3.13.0/app-container.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -117,15 +124,23 @@ gtag('config', 'G-6DXRRLW54Y', { 'anonymize_ip': true});
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#callouts" id="toc-callouts" class="nav-link active" data-scroll-target="#callouts">Callouts</a></li>
+  <li><a href="#mol-star" id="toc-mol-star" class="nav-link" data-scroll-target="#mol-star">mol star</a></li>
+  <li><a href="#quizdown" id="toc-quizdown" class="nav-link" data-scroll-target="#quizdown">quizdown</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">New to Lab</h1>
+<h1 class="title">Welcome Labbies and Crabbies</h1>
 </div>
 
 
@@ -142,10 +157,140 @@ gtag('config', 'G-6DXRRLW54Y', { 'anonymize_ip': true});
 </header>
 
 
-<p>This is a Quarto website.</p>
-<p>To learn more about Quarto websites visit <a href="https://quarto.org/docs/websites" class="uri">https://quarto.org/docs/websites</a>.</p>
+<p>This website is a collection of protocols and guidance to get you working in a lab.</p>
+<section id="callouts" class="level3">
+<h3 class="anchored" data-anchor-id="callouts">Callouts</h3>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Note that there are five types of callouts, including: <code>note</code>, <code>tip</code>, <code>warning</code>, <code>caution</code>, and <code>important</code>.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warning
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Callouts provide a simple way to attract attention, for example, to this warning.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+This is Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Danger, callouts will really improve your writing.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip With Title
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>This is an example of a callout with a title.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Expand To Learn About Collapse
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>This is an example of a ‘collapsed’ caution callout that can be expanded by the user. You can use <code>collapse="true"</code> to collapse it by default or <code>collapse="false"</code> to make a collapsible callout that is expanded by default.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="mol-star" class="level3">
+<h3 class="anchored" data-anchor-id="mol-star">mol star</h3>
+<!-- https://jmbuhr.de/quarto-molstar/ -->
+    <div id="app-1mbn" class="molstar-app"></div>
+    <script type="text/javascript">
+    molstar.Viewer.create("app-1mbn", {"emdbProvider":"rcsb","layoutIsExpanded":false,"layoutShowControls":false,"layoutShowLeftPanel":true,"layoutShowLog":false,"layoutShowRemoteState":false,"layoutShowSequence":false,"pdbProvider":"rcsb","viewportShowAnimation":true,"viewportShowExpand":true,"viewportShowSelectionMode":false}).then(viewer => {
+    viewer.loadPdb("1mbn");    });
+    </script>
+    
+</section>
+<section id="quizdown" class="level3">
+<h3 class="anchored" data-anchor-id="quizdown">quizdown</h3>
+<div class="quizdown">
+---
+primary_color: orange
+secondary_color: lightgray
+text_color: black
+shuffle_questions: false
+shuffle_answers: true
+---
+
+# Python Lists
+
+What is the value of `x[2]`?
+
+&gt; Python lists are mutable!
+
+~~~python
+x = [2, 3, 4]
+x[2] = 4
+print(x[2])
+~~~
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
+
+## The sound of dog
+
+What do dogs sound like?
+
+&gt; Some hint
+
+- [ ] yes
+- [ ] no
+- [ ] `self.sound = "meow"`
+- [x] wuff
+
+## Put the [days](https://en.wikipedia.org/wiki/Day) in order!
+
+&gt; Monday is the *first* day of the week.
+
+1. Monday
+2. Tuesday
+3. Wednesday
+4. Friday
+5. Saturday  
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

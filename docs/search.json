@@ -9,8 +9,15 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "New to Lab",
+    "title": "Welcome Labbies and Crabbies",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "This website is a collection of protocols and guidance to get you working in a lab.\n\nCallouts\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nCallouts provide a simple way to attract attention, for example, to this warning.\n\n\n\n\n\n\n\n\nThis is Important\n\n\n\nDanger, callouts will really improve your writing.\n\n\n\n\n\n\n\n\nTip With Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘collapsed’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n\n\n\n\n\nmol star\n\n    \n    \n    \n\n\nquizdown\n\n---\nprimary_color: orange\nsecondary_color: lightgray\ntext_color: black\nshuffle_questions: false\nshuffle_answers: true\n---\n\n# Python Lists\n\nWhat is the value of `x[2]`?\n\n&gt; Python lists are mutable!\n\n~~~python\nx = [2, 3, 4]\nx[2] = 4\nprint(x[2])\n~~~\n\n- [ ] 1\n- [ ] 2\n- [ ] 3\n- [x] 4\n\n## The sound of dog\n\nWhat do dogs sound like?\n\n&gt; Some hint\n\n- [ ] yes\n- [ ] no\n- [ ] `self.sound = \"meow\"`\n- [x] wuff\n\n## Put the [days](https://en.wikipedia.org/wiki/Day) in order!\n\n&gt; Monday is the *first* day of the week.\n\n1. Monday\n2. Tuesday\n3. Wednesday\n4. Friday\n5. Saturday"
+  },
+  {
+    "objectID": "index.html#myoglobin",
+    "href": "index.html#myoglobin",
+    "title": "New to Lab Dot Guide",
+    "section": "Myoglobin",
+    "text": "Myoglobin"
   }
 ]

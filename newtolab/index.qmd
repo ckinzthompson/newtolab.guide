@@ -1,7 +1,87 @@
 ---
-title: "New to Lab"
+title: "Welcome Labbies and Crabbies"
+filters: 
+    - quizdown
 ---
 
-This is a Quarto website.
+This website is a collection of protocols and guidance to get you working in a lab.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### Callouts
+::: callout-note
+Note that there are five types of callouts, including: `note`, `tip`, `warning`, `caution`, and `important`.
+:::
+
+::: callout-warning
+Callouts provide a simple way to attract attention, for example, to this warning.
+:::
+
+::: callout-important
+## This is Important
+
+Danger, callouts will really improve your writing.
+:::
+
+::: callout-tip
+## Tip With Title
+
+This is an example of a callout with a title.
+:::
+
+::: {.callout-caution collapse="true"}
+## Expand To Learn About Collapse
+
+This is an example of a 'collapsed' caution callout that can be expanded by the user. You can use `collapse="true"` to collapse it by default or `collapse="false"` to make a collapsible callout that is expanded by default.
+:::
+
+### mol star
+<!-- https://jmbuhr.de/quarto-molstar/ -->
+{{< mol-rcsb 1mbn >}}
+
+### quizdown
+```quizdown
+---
+primary_color: orange
+secondary_color: lightgray
+text_color: black
+shuffle_questions: false
+shuffle_answers: true
+---
+
+# Python Lists
+
+What is the value of `x[2]`?
+
+> Python lists are mutable!
+
+~~~python
+x = [2, 3, 4]
+x[2] = 4
+print(x[2])
+~~~
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [x] 4
+
+## The sound of dog
+
+What do dogs sound like?
+
+> Some hint
+
+- [ ] yes
+- [ ] no
+- [ ] `self.sound = "meow"`
+- [x] wuff
+
+## Put the [days](https://en.wikipedia.org/wiki/Day) in order!
+
+> Monday is the *first* day of the week.
+
+1. Monday
+2. Tuesday
+3. Wednesday
+4. Friday
+5. Saturday  
+```
