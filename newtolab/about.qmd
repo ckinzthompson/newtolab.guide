@@ -3,3 +3,6 @@ title: "About"
 ---
 
 About this site
+
+<!-- https://jmbuhr.de/quarto-molstar/ -->
+{{< mol-rcsb 1mbn >}}

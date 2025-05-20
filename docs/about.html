@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/molstar-v3.13.0/molstar.js"></script>
+<link href="site_libs/quarto-contrib/molstar-v3.13.0/molstar.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/molstar-v3.13.0/app-container.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -143,6 +146,13 @@ gtag('config', 'G-6DXRRLW54Y', { 'anonymize_ip': true});
 
 
 <p>About this site</p>
+<!-- https://jmbuhr.de/quarto-molstar/ -->
+    <div id="app-1mbn" class="molstar-app"></div>
+    <script type="text/javascript">
+    molstar.Viewer.create("app-1mbn", {"emdbProvider":"rcsb","layoutIsExpanded":false,"layoutShowControls":false,"layoutShowLeftPanel":true,"layoutShowLog":false,"layoutShowRemoteState":false,"layoutShowSequence":false,"pdbProvider":"rcsb","viewportShowAnimation":true,"viewportShowExpand":true,"viewportShowSelectionMode":false}).then(viewer => {
+    viewer.loadPdb("1mbn");    });
+    </script>
+    
 
 
 
