@@ -7,6 +7,46 @@
     "text": "About this site"
   },
   {
+    "objectID": "content1.html",
+    "href": "content1.html",
+    "title": "Content 1",
+    "section": "",
+    "text": "Content 1",
+    "crumbs": [
+      "Content1",
+      "Content 1"
+    ]
+  },
+  {
+    "objectID": "content2A.html",
+    "href": "content2A.html",
+    "title": "Content 2A",
+    "section": "",
+    "text": "Content 2A",
+    "crumbs": [
+      "Content2",
+      "Content 2A"
+    ]
+  },
+  {
+    "objectID": "content2B.html",
+    "href": "content2B.html",
+    "title": "Content 2B",
+    "section": "",
+    "text": "Content 2B",
+    "crumbs": [
+      "Content2",
+      "Content 2B"
+    ]
+  },
+  {
+    "objectID": "LICENSE.html",
+    "href": "LICENSE.html",
+    "title": "New to Lab",
+    "section": "",
+    "text": "Modified MIT License – No AI Use\nCopyright (c) [2025] [Colin Kinz-Thompson]\nThis license is based on the MIT License, with the following additional restriction: - The Software and its contents may not be used, in whole or in part, to train or fine-tune machine learning models or artificial intelligence systems, including large language models, without explicit written permission from the copyright holder.\nPermission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:\nThe above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.\nTHE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE."
+  },
+  {
     "objectID": "extras.html",
     "href": "extras.html",
     "title": "Welcome Labbies and Crabbies",
@@ -14,10 +54,21 @@
     "text": "This website is a collection of protocols and guidance to get you working in a lab.\n\n\n\n\nCallouts\n\n\n\n\n\n\nNote\n\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important.\n\n\n\n\n\n\n\n\nWarning\n\n\n\nCallouts provide a simple way to attract attention, for example, to this warning.\n\n\n\n\n\n\n\n\nThis is Important\n\n\n\nDanger, callouts will really improve your writing.\n\n\n\n\n\n\n\n\nTip With Title\n\n\n\nThis is an example of a callout with a title.\n\n\n\n\n\n\n\n\nExpand To Learn About Collapse\n\n\n\n\n\nThis is an example of a ‘collapsed’ caution callout that can be expanded by the user. You can use collapse=\"true\" to collapse it by default or collapse=\"false\" to make a collapsible callout that is expanded by default.\n\n\n\n\n\nmol star\n\n    \n    \n    \n\n\nquizdown\n\n---\nprimary_color: orange\nsecondary_color: lightgray\ntext_color: black\nshuffle_questions: false\nshuffle_answers: true\n---\n\n# Python Lists\n\nWhat is the value of `x[2]`?\n\n&gt; Python lists are mutable!\n\n~~~python\nx = [2, 3, 4]\nx[2] = 4\nprint(x[2])\n~~~\n\n- [ ] 1\n- [ ] 2\n- [ ] 3\n- [x] 4\n\n## The sound of dog\n\nWhat do dogs sound like?\n\n&gt; Some hint\n\n- [ ] yes\n- [ ] no\n- [ ] `self.sound = \"meow\"`\n- [x] wuff\n\n## Put the [days](https://en.wikipedia.org/wiki/Day) in order!\n\n&gt; Monday is the *first* day of the week.\n\n1. Monday\n2. Tuesday\n3. Wednesday\n4. Friday\n5. Saturday"
   },
   {
+    "objectID": "content2.html",
+    "href": "content2.html",
+    "title": "Content 2",
+    "section": "",
+    "text": "Content 2",
+    "crumbs": [
+      "Content2",
+      "Content 2"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome Labbies and Crabbies",
     "section": "",
-    "text": "This website is a collection of protocols and guidance to get you working in a lab."
+    "text": "This website is a collection of protocols, instructional videos, and practical guidance designed to help you become productive and confident in a research lab. Whether you’re new to laboratory research or expanding your existing skill set, you’ll find clear, straightforward resources to support your experiments and workflows.\nUse the organized categories or search function to quickly find what you need. Welcome to NewToLab.guide!"
   }
 ]

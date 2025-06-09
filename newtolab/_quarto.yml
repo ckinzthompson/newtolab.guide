@@ -5,19 +5,53 @@ project:
 metadata-files: [CNAME]
 
 website:
+  page-navigation: true
   title: "New to Lab"
+  description: "Description goes here..."
+  site-url: "https://newtolab.guide/"
+  repo-url: https://github.com/ckinzthompson/newtolab.guide
   google-analytics: "G-6DXRRLW54Y"
   navbar:
+    logo: "images/logo.jpg"
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - text: "About"
+        href: about.qmd
+      - text: "Content1"
+        href: content1.qmd
+      - text: "Content2"
+        href: content2.qmd
+    right:
+      - icon: github
+        href: https://github.com/ckinzthompson/newtolab.guide
+        aria-label: GitHub
+  
+  sidebar:
+    - id: content1
+      title: "Content 1"
+      contents:
+        - href: content1.qmd
+        - hfre: extras.qmd
+    - id: content2
+      title: "Content 2"
+      contents:
+        - href: content2.qmd
+        - href: content2A.qmd
+        - href: content2B.qmd
+
+  page-footer:
+    left: "LAB GUIDE"
+    right:
+    - text: "License"
+      href: LICENSE.md
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
-    css: styles.css
+      - brite
     toc: true
+    code-copy: true
+    code-overflow: wrap
+
 

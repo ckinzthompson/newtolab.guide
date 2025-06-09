@@ -1,0 +1,9 @@
+---
+title: "Content 2B"
+---
+
+Content 2B
+
+<!-- https://jmbuhr.de/quarto-molstar/ -->
+{{< mol-rcsb 9IUT >}}
+

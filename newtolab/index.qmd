@@ -2,24 +2,8 @@
 title: "Welcome Labbies and Crabbies"
 ---
 
-This website is a collection of protocols and guidance to get you working in a lab.
+This website is a collection of protocols, instructional videos, and practical guidance designed to help you become productive and confident in a research lab. Whether you're new to laboratory research or expanding your existing skill set, you'll find clear, straightforward resources to support your experiments and workflows.
 
+Use the organized categories or search function to quickly find what you need. Welcome to NewToLab.guide!
 
-<style>
-  body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: auto;
-  }
-  iframe.background-iframe {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    border: none;
-    z-index: -1;
-  }
-</style>
-<iframe src="bacteria-animation.html" class="background-iframe"></iframe>
+![](images/logo.svg){width=300,fig-align="center"}
